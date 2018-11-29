@@ -1,0 +1,96 @@
+
+/*CLASSES*/
+.pointer {
+    cursor: pointer;
+}
+
+
+
+/*ELEMENTS*/
+p {
+    font-family: 'VT323', monospace;
+}
+
+button {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+
+
+/*IDs*/
+#byline {
+    text-align: right;
+    right: 30px;
+    bottom: 10px;
+    position: fixed;
+    
+}
+#byline p {
+    font-size:15px;
+}
+
+#byline a {
+    text-decoration: underline;
+}
+
+#landingtitle {
+    margin-top: 275px;
+    text-align: center;
+    opacity: 0;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 4s ease-in;
+    -moz-transition: opacity 4s ease-in;
+    -o-transition: opacity 4s ease-in;
+    -ms-transition: opacity 4s ease-in;
+    transition: opacity 4s ease-in;
+
+}
+
+#landingtitle.load {
+     opacity: 1;
+}
+
+#landingtitle h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+}
+
+#landingtitle p {
+    font-size: 20px;
+}
+
+
+
+
+
+/*FONTS
+*font-family: 'Kumar One Outline', cursive;
+*font-family: 'Concert One', cursive;
+*font-family: 'VT323', monospace;
+*font-family: 'Press Start 2P', cursive;
+*/
