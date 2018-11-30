@@ -164,8 +164,22 @@ p{
 
 #map{
 	width: 100%;
-	height: 600px;
+	height: 400px;
+	margin-top: 20px;
 }
+#mapcaption {
+	margin-top: 10px;
+}
+#mapcaption a {
+	color:black;
+	text-decoration: underline;
+}
+
+#mapcaption a:hover {
+	color:mistyrose;
+	text-decoration: underline;
+}
+
 
 /*EXPLORE*/
 #section7 {
