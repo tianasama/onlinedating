@@ -47,7 +47,7 @@ a:hover {
     right: 30px;
     bottom: 10px;
     position: fixed;
-    
+
 }
 #byline p {
     font-size:15px;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 #landingtitle h1 {
-    font-family: 'Concert One', cursive;
+    font-family: 'VT323', monospace;
     font-size: 50px;
 }
 

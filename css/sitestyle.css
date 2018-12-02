@@ -110,7 +110,7 @@ ol,ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Concert One', cursive;
+	font-family: 'VT323', monospace;
 }
 
 h1 {
@@ -147,13 +147,26 @@ p{
 	font-size: 18px;
 }
 
-
+/*SECTION 4*/
 
 /*CULTURE*/
 #section5 {
 	background-size: 100%;
 	background-image: linear-gradient(white, mistyrose, pink);
 }
+
+#cultureheader {
+	margin-bottom: 70px;
+}
+
+#who,#what,#when,#where,#why,#how {
+	margin-bottom: 50px;
+}
+
+#who,#what,#when,#where,#why,#how a {
+	font-family: 'VT323', monospace;
+}
+
 
 
 /*MAP*/
@@ -242,6 +255,6 @@ p{
 
 
 /*FONTS
-*font-family: 'Concert One', cursive;
 *font-family: 'VT323', monospace;
+*font-family: 'Concert One', cursive;
 */
