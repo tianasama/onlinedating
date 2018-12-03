@@ -18,24 +18,24 @@ button {
     margin: 30px;
     background-color: white;
     border: none;
-    color: black;
+    color: pink;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
 button:hover {
-    color: pink;
-    text-decoration: underline;
+    color: mistyrose;
+    text-decoration: none;
 }
 
 a {
-    color: black;
+    color: pink;
     text-decoration: none;
 }
 
 a:hover {
-    color: pink;
+    color: mistyrose;
     text-decoration: none;
 }
 
@@ -54,7 +54,13 @@ a:hover {
 }
 
 #byline a {
-    text-decoration: underline;
+    color: pink;
+    text-decoration: none;
+}
+
+#byline a:hover {
+    color: mistyrose;
+    text-decoration: none;
 }
 
 #landingtitle {
@@ -62,7 +68,6 @@ a:hover {
     text-align: center;
     opacity: 0;
     font-size: 21px;
-    text-align: center;
     -webkit-transition: opacity 4s ease-in;
     -moz-transition: opacity 4s ease-in;
     -o-transition: opacity 4s ease-in;

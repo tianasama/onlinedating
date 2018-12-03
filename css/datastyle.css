@@ -1,0 +1,59 @@
+p {
+    font-family: 'VT323', monospace;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: mistyrose;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'VT323', monospace;
+}
+
+
+
+/*IDs*/
+#datatitle {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#byline {
+    text-align: right;
+    right: 30px;
+    bottom: 10px;
+    position: fixed;
+
+}
+#byline p {
+    font-size:15px;
+}
+
+#byline a {
+    color: pink;
+    text-decoration: none;
+}
+
+#byline a:hover {
+    color: mistyrose;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*FONTS
+*font-family: 'Kumar One Outline', cursive;
+*font-family: 'Concert One', cursive;
+*font-family: 'VT323', monospace;
+*font-family: 'Press Start 2P', cursive;
+*/

@@ -3,11 +3,11 @@
 /* MENU */
 #chapters{
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255,255,255,1);
 	position:fixed;
 	top:0;
 	left:0;
-	height: 40px;
+	height: 100px;
 	z-index: 70;
 	width: 100%;
 	padding: 0;
@@ -18,6 +18,8 @@
 	font-family: 'VT323', monospace;
 	display:inline-block;
 	margin: 10px;
+	background-color: white;
+	background-color: rgba(255,255,255,1);
 	color: #000;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -147,6 +149,10 @@ p{
 	font-size: 18px;
 }
 
+#sectiontwotwo{
+	margin-bottom: 80px;
+}
+
 /*SECTION 4*/
 
 /*CULTURE*/
@@ -233,14 +239,65 @@ p{
 }
 
 
+/*Byline & Data link*/
+#byline {
+		z-index: 71;
+    text-align: right;
+    right: 30px;
+    bottom: 10px;
+    position: fixed;
+		font-family: 'VT323', monospace;
+}
+#byline p {
+    font-size:15px;
+}
 
+#byline a {
+    color: black;
+    text-decoration: underline;
+}
+
+#byline a:hover {
+    color: mistyrose;
+    text-decoration: underline;
+}
+
+#datalink {
+		z-index: 72;
+    text-align: right;
+    left: 30px;
+    bottom: 10px;
+    position: fixed;
+
+}
+#datalink p {
+		font-family: 'VT323', monospace;
+    font-size:15px;
+}
+
+#datalink a {
+    color: black;
+    text-decoration: underline;
+}
+
+#datalink a:hover {
+    color: mistyrose;
+    text-decoration: underline;
+}
 
 
 
 
 
 /*MEDIA QUERIES*/
-
+@media only screen and (max-width: 600px){
+	#byline, #datalink {
+		visibility: hidden;
+	}
+	.section {
+		margin-bottom: 50px;
+	}
+}
 
 
 
