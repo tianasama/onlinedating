@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
- font-size: 60px;
+	font-size: 60px;
 }
 
 h2 {
@@ -249,48 +249,48 @@ p{
 
 /*Byline & Data link*/
 #byline {
-		z-index: 71;
-    text-align: right;
-    right: 30px;
-    bottom: 10px;
-    position: fixed;
-		font-family: 'VT323', monospace;
+	z-index: 71;
+	text-align: right;
+	right: 30px;
+	bottom: 10px;
+	position: fixed;
+	font-family: 'VT323', monospace;
 }
 #byline p {
-    font-size:15px;
+	font-size:15px;
 }
 
 #byline a {
-    color: black;
-    text-decoration: underline;
+	color: black;
+	text-decoration: underline;
 }
 
 #byline a:hover {
-    color: mistyrose;
-    text-decoration: underline;
+	color: mistyrose;
+	text-decoration: underline;
 }
 
 #datalink {
-		z-index: 72;
-    text-align: right;
-    left: 30px;
-    bottom: 10px;
-    position: fixed;
+	z-index: 72;
+	text-align: right;
+	left: 30px;
+	bottom: 10px;
+	position: fixed;
 
 }
 #datalink p {
-		font-family: 'VT323', monospace;
-    font-size:15px;
+	font-family: 'VT323', monospace;
+	font-size:15px;
 }
 
 #datalink a {
-    color: black;
-    text-decoration: underline;
+	color: black;
+	text-decoration: underline;
 }
 
 #datalink a:hover {
-    color: mistyrose;
-    text-decoration: underline;
+	color: mistyrose;
+	text-decoration: underline;
 }
 
 
@@ -298,9 +298,18 @@ p{
 
 
 /*MEDIA QUERIES*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
+	#earthgif {
+		height: 80px;
+	}
 	#byline, #datalink {
 		visibility: hidden;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2, h3 {
+		font-size: 20px;
 	}
 	.section {
 		margin-bottom: 50px;

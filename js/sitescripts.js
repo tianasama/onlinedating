@@ -34,7 +34,7 @@ $(document).ready(function() {
 	});
 
 
-  /*US Internet Users*/
+  /*Highchart for International Internet Users*/
   let internationalInternetUsers = Highcharts.chart('international-internet-users', {
     tooltip: {
       formatter: function () {
@@ -110,9 +110,8 @@ $(document).ready(function() {
       ],
     }, ],
   });
-  /*
-  Create new Highchart to describe International Internet Users
-  */
+
+  /*Highchart for Domestic Internet Users*/
   var domesticInternetUsers = Highcharts.chart('domestic-internet-users', {
     tooltip: {
       formatter: function () {

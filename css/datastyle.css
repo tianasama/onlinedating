@@ -1,21 +1,28 @@
+
+
 p {
-    font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace;
 }
 
 a {
-    color: pink;
-    text-decoration: none;
+  color: pink;
+  text-decoration: none;
 }
 
 a:hover {
-    color: mistyrose;
-    text-decoration: none;
+  color: mistyrose;
+  text-decoration: none;
 }
 
 h1, h2, h3 {
   font-family: 'VT323', monospace;
 }
 
+img {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
 
 
 /*IDs*/
@@ -23,29 +30,40 @@ h1, h2, h3 {
   margin-top: 80px;
   text-align: center;
   font-size: 16px;
+  margin-bottom: 50px;
 }
 
 #byline {
-    text-align: right;
-    right: 30px;
-    bottom: 10px;
-    position: fixed;
-
+  width: 100%
+  text-align: right;
+  right: 30px;
+  bottom: 10px;
+  position: fixed;
+  background-color: (255,255,255,0.8);
 }
+
 #byline p {
-    font-size:15px;
+  color: black;
+  font-size:15px;
 }
 
 #byline a {
-    color: pink;
-    text-decoration: none;
+  color: pink;
+  text-decoration: none;
 }
 
 #byline a:hover {
-    color: mistyrose;
-    text-decoration: none;
+  color: mistyrose;
+  text-decoration: none;
 }
 
+@media only screen and (max-width: 800px){
+  #byline{
+    text-align: center;
+    bottom: 10px;
+    position: relative;
+  }
+}
 
 
 

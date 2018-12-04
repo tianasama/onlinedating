@@ -1,52 +1,50 @@
-<!DOCTYPE HTML>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type" content="text/html" charset="utf-8" />
 	<link rel="shortcut icon" href="media/heart.png" sizes="16x16" type="image/png">
-	<title>Love at First Swipe - Data</title>
-
-
+	<title>Love at First Swipe: Data at a Glance</title>
 
 	<!--Stylesheets-->
 	<link href="https://fonts.googleapis.com/css?family=Concert+One|VT323" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" type="text/css" href="css/datastyle.css" />
+	<link rel="stylesheet" type="text/css" href="css/datastyle.css">
 </head>
 
-
-
-
-
-
-<!--BODY-->
 <body>
-	<div id="datatitle">
+	<div id="datatitle" style="margin-bottom:40px;">
 		<img src="media/hearts.gif" alt="blinking hearts" style="height:40px;">
-		<h1>Love at First Swipe:<br> Data</h1>
-		<p>All data for this project obtained from <a href="https://www.statista.com" target="_blank">Statista</a> and <br><a href="http://www.worldbank.org/">The World Bank</a>, in addition to sources credited in-site.</p>
+		<h1>Love at First Swipe:<br> Data at a Glance</h1>
+		<p>All visualized data for this project obtained from <a href="https://www.statista.com" target="_blank">Statista</a> and <a href="http://www.worldbank.org/" target="_blank">The World Bank</a>.</p>
 	</div>
-	<table id="datatable" width="100%"></table>
-<!--Insert data chart here-->
+	<hr>
+	<div class="container">
 
+		<!-- International Internet Users DataTable-->
+		<table id="international-internet-users-datatable" width="100%; margin-bottom:60px;"></table>
 
-
-
-
-
-
-
+		<hr>
+		<!-- Domestic Internet Users-->
+		<div id="domestic-internet-users" style="width:100%; height:400px; margin-bottom:40px;"></div>
+		<hr>
+		<!-- International Internet Users-->
+		<div id="international-internet-users" style="width:100%; height:400px; margin-bottom:40px;"></div>
+	</div>
+	<br></br>
 
 	<div id="byline">
-		<p>A project by <a href="https://www.tianaattride.com">tiana attride</a></p>
+		<p>A project by <a href="https://www.tianaattride.com" target="_blank">tiana attride</a></p>
 	</div>
+	<br>
 
-	<!--JAVASCRIPT & JQUERY-------------------------->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!--Java & jQuery-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+	crossorigin="anonymous"></script>
 	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" src="js/datascripts.js"></script>
-
-
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="js/datascripts.js"></script>
 </body>
+
 </html>
