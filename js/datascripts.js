@@ -173,7 +173,7 @@ $(function () {
     ],
   ];
 
-  /*International Internet Users*/
+  /*International Internet Users Highchart*/
   let internationalInternetUsers = Highcharts.chart('international-internet-users', {
     tooltip: {
       formatter: function () {
@@ -329,9 +329,7 @@ $(function () {
     }, ],
   });
 
-  /*
-  Create new DataTable to describe International Internet Users
-  */
+  /*International Internet Datatable*/
   $('#international-internet-users-datatable').DataTable({
     data: dataSet,
     columns: [{
