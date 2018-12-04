@@ -56,7 +56,7 @@
 }
 
 
-/*PAGEPILING SETUP*/
+/*SETUP & INSTRUCTIONS*/
 .section{
 	text-align:center;
 }
@@ -104,6 +104,7 @@ a:hover {
 	color:mistyrose;
 	text-decoration: none;
 }
+
 
 ol,ul {
 	list-style: none;
@@ -302,6 +303,19 @@ p{
 	#earthgif {
 		height: 80px;
 	}
+	#section6 img {
+		width: 80%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	#section7 img {
+		height: 200px;
+		margin-bottom: 20px;
+
+	}
+	#tinder,#plentyoffish,#match,#okcupid,#grindr,#bumble {
+		margin-bottom: 100px;
+		}
 	#byline, #datalink {
 		visibility: hidden;
 	}
@@ -315,6 +329,17 @@ p{
 		margin-bottom: 50px;
 	}
 }
+
+@media only screen and (max-width: 600px){
+	#section7 img {
+		height: 150px;
+		margin-bottom: 10px;
+	}
+	#tinder,#plentyoffish,#match,#okcupid,#grindr,#bumble {
+		margin-bottom: 60px;
+		}
+}
+
 
 
 
