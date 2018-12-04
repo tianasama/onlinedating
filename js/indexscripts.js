@@ -8,7 +8,3 @@ $("button").click(function(){
         window.location = "site.html";
         });
 });
-
-
-/*MAIN SITE PAGE FADES*/
-$("#titlepage").addClass("load");

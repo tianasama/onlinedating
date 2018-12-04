@@ -165,11 +165,11 @@ p{
 	margin-bottom: 70px;
 }
 
-#who,#what,#when,#where,#why,#how {
+#whowhat,#whenwhere,#whyhow {
 	margin-bottom: 50px;
 }
 
-#who,#what,#when,#where,#why,#how a {
+#whowhat,#whenwhere,#whyhow a {
 	font-family: 'VT323', monospace;
 }
 
